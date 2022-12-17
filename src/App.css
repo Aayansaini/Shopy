@@ -1,0 +1,142 @@
+*{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: fit-content;
+  font-family: 'poppins';
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav{
+  height: 10vh;
+  width: 100%;
+  top: 0;
+  display: flex;
+  position: sticky;
+  align-items: center;
+  background-color: #000000;
+}
+nav ul{
+display: flex;
+align-items: center;
+color: #f9f9f9;
+}
+nav ul h2{
+  margin-left: 8px;
+  color: #F73D93;
+}
+nav ul h2:hover{
+  color: #D89216;
+  transition: 0.8s;
+  cursor: pointer;
+}
+nav ul li{
+  margin: 20px;
+  list-style: none;
+  font-weight: 700;
+  font-size: 15px;
+  color: #f9f9f9;
+}
+nav ul li:hover{
+  cursor: pointer;
+  color: #F73D93;
+  transition: 0.6s;
+}
+.back{
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../src/BACk.jpg");
+  background-repeat: no-repeat;
+  background-position-x: -2.4rem;
+  background-size: cover;
+}
+.helo{
+  height: 55vh;
+  width: 100%;
+  display: flex;
+  color: #000000;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: uppercase;
+}
+#search{
+  height: 7vh;
+  width: 280px;
+  border: none;
+  display: flex;
+  padding: 15px;
+  font-weight: 900;
+  font-size: 15px;
+  align-items:center;
+  border-radius: 50px;
+  background-color:#FDF6F0;
+  background-image: url("./search.png");
+  background-position-x: right;
+  background-size: 28px;
+  background-position: 13.60rem;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+#search::placeholder{
+  font-size: 15px;
+}
+span{
+  color: #F73D93;
+}
+#span-1{
+  font-size: 30px;
+}
+.helo h1{  
+  font-size: 50px;
+}
+.b-1{
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  font-size: 22px;
+  color: #f9f9f9;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+}
+
+
+/* Contenta WORKING FLOW */
+
+.c-1{
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-color:#000000;
+  background-position-x: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url("./c-1.jpg");
+}
+.c-1 h1{
+  font-size: 45px;
+  color: #f9f9f9;
+}
+
+/* CONTENTB WORKING FLOW */
+
+.c-2{
+  height: 100vh;
+  width: 100%;
+  color: #f9f9f9;
+  display: flex;
+  text-align: center;
+  background-color: #000000;
+}
