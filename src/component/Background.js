@@ -1,7 +1,7 @@
 function Background(){
     return(
         <div className="helo">
-            <h1>Online <span>Shopping</span> with <span>Shopy</span></h1>
+            <p>Online <span>Shopping</span> With <span>Shopy</span></p>
             <input id="search" placeholder="Search items" type={"search"}/>
         </div>
     )
