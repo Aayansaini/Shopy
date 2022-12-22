@@ -34,14 +34,15 @@ nav ul h2:hover{
   cursor: pointer;
 }
 nav ul li{
-  padding: 10px;
+  padding: 20px;
   list-style: none;
   font-weight: 900;
-  font-size: 13px;
+  font-size: 18px;
   color: #f9f9f9;
 }
 nav ul li:hover{
   cursor: pointer;
+  font-size: 20px;
   color: #F73D93;
   transition: 0.6s;
 }
@@ -57,7 +58,7 @@ nav ul li:hover{
   background-size: cover;
 }
 .helo{
-  height: 75vh;
+  height: 80vh;
   width: 100%;
   display: flex;
   color: #000000;
@@ -67,9 +68,41 @@ nav ul li:hover{
   justify-content: center;
 }
 .helo p{
-  font-size: 43px;
+  /* 43 */
+  font-size: 60px;
   font-weight: 900;
   font-family: 'Times New Roman';
+}
+.helo button{
+  height: 10vh;
+  width: 170px;
+  border: 3px solid #000000;
+  display: flex;
+  background-color: transparent;
+  align-items:center;
+  /* justify-content: center; */
+  background-image: url("../src/search.png");
+  background-repeat: no-repeat;
+  background-size:50px;
+  font-size: 25px;
+  background-color: #FFE1E1;
+  font-weight: 900;
+  background-position: 0in;
+  background-position: right;
+  background-position-x: 7rem;
+  margin: 6px;
+  border-radius: 50px;
+}
+.helo button:hover{
+  opacity: 2px;
+  transition: 0.5s;
+  color: #f9f9f9;
+  background-color: #F73D93;
+  cursor: pointer;
+}
+.helo button h4{
+  margin-left: -15px;
+  font-size: 25px;
 }
 #search{
   height: 7vh;
@@ -81,16 +114,16 @@ nav ul li:hover{
   font-size: 15px;
   align-items:center;
   border-radius: 50px;
-  background-color:#FDF6F0;
-  background-image: url("./search.png");
-  background-position-x: right;
-  background-size: 28px;
-  background-position: 9.60rem;
-  background-repeat: no-repeat;
-  margin-top: 30px;
+  background-color:#FFE1E1;
+  /* background-image: url("./search.png"); */
+  /* background-position-x: right; */
+  /* background-size: 28px; */
+  /* background-position: 11.40rem; */
+  /* background-repeat: no-repeat; */
+  margin: 100px;
 }
 #search::placeholder{
-  font-size: 15px;
+  font-size: 20px;
   padding: 5px;
 }
 span{
@@ -143,7 +176,7 @@ span{
 /* CONTENTB WORKING FLOW */
 
 .c-2{
-  height: 380vh;
+  height: 350vh;
   width: 100%;
   z-index: -1;
   display: flex;
@@ -164,6 +197,7 @@ span{
   width: 100%;
   display: flex; 
   margin-top: 100px;
+  align-items: flex-end;
   justify-content: center;
   clip-path: circle(50% at 50% 50%);
   background-color: #D89216;
@@ -178,19 +212,25 @@ span{
 .ad{
   height: 25vh;
   width: 100%;
-  background-image: url("../src/assets/ad.jpg");
+  /* background-image: url("../src/assets/ad.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
   flex-direction: column;
   text-align: center;
-  color: #f9f9f9;
   justify-content: center;
-  background-color: coral;
+  background-color: #D89216;
 }
 .ad h1{
   font-weight: 900;
-  font-size: 42px;
-  color: #F73D93;
+  font-size: 80px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000000;
+}
+.ad h2{
+  font-weight: 900;
+  font-size: 28px;
+  color: #FFE1E1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
