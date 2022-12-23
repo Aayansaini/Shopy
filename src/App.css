@@ -26,7 +26,7 @@ color: #f9f9f9;
 }
 nav ul h2{
   margin-left: 8px;
-  color: #F73D93;
+  color: #f9f9f9;
 }
 nav ul h2:hover{
   color: #D89216;
@@ -43,7 +43,7 @@ nav ul li{
 nav ul li:hover{
   cursor: pointer;
   font-size: 20px;
-  color: #F73D93;
+  color: #FF0000;
   transition: 0.6s;
 }
 .back{
@@ -54,7 +54,6 @@ nav ul li:hover{
   justify-content: center;
   background-image: url("../src/BACk.jpg");
   background-repeat: no-repeat;
-  /* background-position-x: 12rem; */
   background-size: cover;
 }
 .helo{
@@ -68,44 +67,40 @@ nav ul li:hover{
   justify-content: center;
 }
 .helo p{
-  /* 43 */
   font-size: 60px;
   font-weight: 900;
   font-family: 'Times New Roman';
 }
 .helo button{
-  height: 10vh;
-  width: 170px;
-  border: 3px solid #000000;
+  height: 7vh;
+  width: 150px;
+  border: 1px solid #000000;
   display: flex;
   background-color: transparent;
   align-items:center;
-  /* justify-content: center; */
   background-image: url("../src/search.png");
   background-repeat: no-repeat;
-  background-size:50px;
-  font-size: 25px;
+  background-size:35px;
   background-color: #FFE1E1;
   font-weight: 900;
   background-position: 0in;
   background-position: right;
   background-position-x: 7rem;
-  margin: 6px;
   border-radius: 50px;
 }
 .helo button:hover{
   opacity: 2px;
   transition: 0.5s;
   color: #f9f9f9;
-  background-color: #F73D93;
+  background-color: #FF0000;
   cursor: pointer;
 }
-.helo button h4{
-  margin-left: -15px;
-  font-size: 25px;
+.helo button h6{
+  margin-left: -5px;
+  font-size: 17px;
 }
 #search{
-  height: 7vh;
+  height: 6vh;
   width: 220px;
   border: none;
   display: flex;
@@ -120,18 +115,23 @@ nav ul li:hover{
   /* background-size: 28px; */
   /* background-position: 11.40rem; */
   /* background-repeat: no-repeat; */
-  margin: 100px;
+  margin: 50px;
 }
 #search::placeholder{
-  font-size: 20px;
+  font-size: 15px;
   padding: 5px;
 }
-span{
-  color: #F73D93;
+#shop{
+  color: #FFE1E1;
   font-family: 'Times New Roman';
 }
+span{
+  color: #FF0000;
+}
 #span-1{
+  color: red ;
   font-size: 30px;
+  font-family: 'Times New Roman';
 }
 #span-1:hover{
   font-size: 40px;
@@ -233,4 +233,23 @@ span{
   font-size: 28px;
   color: #FFE1E1;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+b{
+  color: red;
+  font-family: 'Times New Roman';
+}
+#boom{
+  color: #000000;
+}
+
+/* MARQUEE WORKING FLOW */
+.marquee{
+  height: 10vh;
+  width: 100%;
+  display: flex; 
+  font-size: 30px;
+  font-weight: 900;
+  color: #f9f9f9;
+  align-items: center;
+  background-color: #000000;
 }

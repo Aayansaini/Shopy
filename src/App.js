@@ -12,7 +12,7 @@ function App() {
    <div className='App'>
     <nav>
       <ul>
-        <h2><span id='span-1'>S</span>HOPY</h2>
+        <h2><span id='span-1'>X</span>MEN</h2>
         <li>Home</li>
         <li>Product</li>
         <li>Rate</li>
@@ -60,6 +60,10 @@ function App() {
     <div className='ad'>
       <h1>Fashion</h1>
       <h2>Up to 20% to 70%</h2>
+    </div>
+
+    <div className='marquee'>
+      <marquee>WORKING ON THIS PROJECT</marquee>
     </div>
    </div>
   );
